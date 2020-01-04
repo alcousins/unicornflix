@@ -85,6 +85,7 @@ If you are running this workshop in your own AWS account:
 
 <details>
     <summary>Click here to expand instructions</summary>
+
 1. To operate this workshop, you will need an IAM User with access to the base services supported by Amplify. A sample policy is included here: https://aws-amplify.github.io/docs/cli-toolchain/usage#iam-policy-for-the-cli .
 In addition to these services, the Amplify Video VOD component also uses **AWS Elemental MediaConvert**. To add support for this service, attach the IAM Managed Policy **AWSElementalMediaConvertFullAccess to your IAM User, along with the above policy for the base Amplify functionality. 
 1. Once you have created an IAM User for use in the workshop, open a terminal (either on your laptop or in Cloud9, depending on how you are deploying the workshop) and run the command `aws --profile ee configure`
